@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <title>Opdracht 2.2</title>
 </head>
+<style>
+    th{
+        padding: 2px;
+    }
+
+    table.table1, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+    }
+
+    table.table3, tr, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+        column-width: 50px;
+    }
+
+</style>
 <body>
-<table border="1">
+<table class="table1" border="1">
     <tr>
         <td rowspan="2">State of Health</td>
         <td colspan="2">Fasting Value</td>
@@ -36,44 +57,44 @@
     </tr>
 </table>
 <br>
-<table border="1">
+<table class="table2" border="1">
     <tr>
-        <td>Header</td>
-        <td>Header</td>
-        <td>Header</td>
-        <td>Header</td>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
     </tr>
     <tr>
-        <td rowspan="5">You can span down.</td>
+        <td rowspan="5">You can span<br> down.</td>
         <td colspan="3">You can span across.</td>
     </tr>
     <tr>
         <td colspan="2">It's like a puzzle.</td>
-        <td rowspan="4">Over here.</td>
+        <td rowspan="4">Over<br> here.</td>
     </tr>
     <tr>
         <td rowspan="3">This way.</td>
         <td>That way.</td>
     </tr>
     <tr>
-        <td rowspan="2">Where am I?</td>
+        <td rowspan="2">Where am<br> I?</td>
     </tr>
 </table>
 <br>
-<table border="1">
+<table class="table3" border="1">
     <tr>
-        <td rowspan="4">1</td>
-        <td rowspan="2">2</td>
-        <td>3</td>
+        <th rowspan="4">1</th>
+        <th rowspan="2">2</th>
+        <th>3</th>
     </tr>
     <tr>
-        <td rowspan="2">4</td>
+        <th rowspan="2">4</th>
     </tr>
     <tr>
-        <td rowspan="2">5</td>
+        <th rowspan="2">5</th>
     </tr>
     <tr>
-        <td>6</td>
+        <th>6</th>
     </tr>
 </table>
 <br>
