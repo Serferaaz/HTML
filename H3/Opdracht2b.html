@@ -23,6 +23,13 @@
         padding: 10px;
         column-width: 50px;
     }
+    table.table3, th{
+        border: 2px solid black;
+    }
+    th.head{
+        border: 1px solid black;
+    }
+
 
 </style>
 <body>
@@ -59,10 +66,10 @@
 <br>
 <table class="table2" border="1">
     <tr>
-        <th>Header</th>
-        <th>Header</th>
-        <th>Header</th>
-        <th>Header</th>
+        <th class="head">Header</th>
+        <th class="head">Header</th>
+        <th class="head">Header</th>
+        <th class="head">Header</th>
     </tr>
     <tr>
         <td rowspan="5">You can span<br> down.</td>
@@ -81,7 +88,7 @@
     </tr>
 </table>
 <br>
-<table class="table3" border="1">
+<table class="table3">
     <tr>
         <th rowspan="4">1</th>
         <th rowspan="2">2</th>
