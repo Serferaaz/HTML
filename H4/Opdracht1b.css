@@ -3,8 +3,8 @@ header{
 }
 
 body{
-    font-family: "Arial", "sans-serif" ;
-    padding:20px;
+    font-family: "Arial", "sans-serif", "serif" ;
+    margin: 0px;
 }
 
 nav {
@@ -30,7 +30,6 @@ img.foto{
 }
 
 article{
-    border: 1px solid black;
     float: left;
     width: 464px;
     margin-right: 30px;
@@ -38,6 +37,7 @@ article{
 }
 
 table{
+    margin-top: 30px;
     width: 464px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -57,5 +57,8 @@ td.blauw{
 }
 
 footer{
-    padding:20px;
+    margin-top: 70px;
+    padding-bottom: 1px;
+    color: white;
+    background-color: black;
 }

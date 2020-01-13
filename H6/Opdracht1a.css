@@ -1,5 +1,4 @@
 * {
-    /*border: dotted 1px grey;*/
     margin: 10px;
     align-self: center;
 }
@@ -71,6 +70,7 @@ textarea {
     width: 120px;
     height: 35px;
     align-self: flex-end;
+    box-sizing: border-box;
 }
 
 div#buttons {
